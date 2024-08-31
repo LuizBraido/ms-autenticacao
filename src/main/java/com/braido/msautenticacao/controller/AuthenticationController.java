@@ -6,7 +6,6 @@ import com.braido.msautenticacao.dto.request.SigninRequest;
 import com.braido.msautenticacao.dto.response.JwtAuthenticationResponse;
 import com.braido.msautenticacao.entities.UsuarioLogin;
 import com.braido.msautenticacao.services.AuthenticationSerice;
-import com.braido.msautenticacao.services.impl.AuthenticationServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.ResponseEntity;
