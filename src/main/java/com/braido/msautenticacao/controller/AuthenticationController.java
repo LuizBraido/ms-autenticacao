@@ -19,6 +19,11 @@ public class AuthenticationController {
 
     private final AuthenticationSerice authenticationSerice;
 
+    @GetMapping("/teste")
+    public ResponseEntity<String> teste(){
+        return ResponseEntity.ok("Hello, World!");
+    }
+
     @PostMapping("/signup")
     public ResponseEntity<UsuarioLogin> signup(@RequestBody SignUpRequest request){
         return ResponseEntity.ok(authenticationSerice.signup(request));
